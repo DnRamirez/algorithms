@@ -1,11 +1,10 @@
-#include <iostream> 
-using namespace std; 
-
-/*  
-    Problem: Given an array sorted in non-decreasing order. Return array of squared elements in non-decreasing order
+/*  Problem: Given an array sorted in non-decreasing order. Return array of squared elements in non-decreasing order
     Approach: Utilize two pointers. Compare two integers, whichever is largest, append to end of new array. 
     Time complexity: O(n)
 */
+
+#include <iostream> 
+using namespace std; 
 
 vector<int> sortedSquares(vector<int>& nums) {
     vector<int> array(nums.size()); 
