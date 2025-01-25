@@ -1,12 +1,10 @@
-#include <iostream> 
-using namespace std; 
- 
-/*  
-    Approach: Two pointers, one at beginning of string and the other at the end.
+/*  Approach: Two pointers, one at beginning of string and the other at the end.
     Time complexity: O(n)
     Space complexity: O(1) (initializing two integer variables)
     Analysis: The pointers start at n away from each other. Each iteration brings them at least one step closer. We will never have more than O(n) iterations for the while loop.
 */
+#include <iostream> 
+using namespace std; 
 
 bool isPalindrome(string s) { 
     int left = 0; 
