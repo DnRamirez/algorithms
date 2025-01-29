@@ -1,6 +1,6 @@
 /*  Problem: You are given a binary string s (a string containing only "0" and "1"). You may choose up to k 0s and flip it to a "1". What is the length of the longest substring achievable that contains only "1"?
     Time complexity: O(n) the for loop iterates over n items. The while loop is ammoritzed O(1). While loop can only iterate n times. 
-    Approach: Two pointers, compare for match. 
+    Approach: Sliding window, our constraint is k. Numeric constraint is that k can not be greater than 0 at any point in time.
 */
 
 #include <iostream> 
