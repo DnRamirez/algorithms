@@ -1,2 +1,2 @@
-# Purpose
-Designed to serve as a personal study resource, consolidating concepts and implementation techniques across various data structures and algorithms. 
+# Algorithms 
+A personal study resource for Data Structures and Algorithms 
