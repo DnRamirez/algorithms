@@ -1,0 +1,2 @@
+# Two pointers 
+Technique used to solve array and string problems. Involves having two integer variables that move along an iterable. Pointers usually start at each end of the input, but could start anywhere. You could also have pointers moving simultaneously across two inputs. 
