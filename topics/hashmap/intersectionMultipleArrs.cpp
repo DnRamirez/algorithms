@@ -17,7 +17,7 @@ vector<int> sortedArr(vector<vector<int>> nums) {
             ans.push_back(i.first); 
         }
     }
-
+    sort(ans.begin(), ans.end()); 
     return ans; 
     
 }
