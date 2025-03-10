@@ -1,6 +1,7 @@
 /* Problem: Given an integer array nums and an integer k, find the number of subarrays whose sum is equal to k.
 */
 #include <iostream> 
+#include <vector> 
 #include <unordered_map>
 using namespace std; 
 
