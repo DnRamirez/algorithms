@@ -11,7 +11,8 @@ bool isEqual(string s) {
 
     unordered_set<int> frequencies; 
     for (auto it : counts) { 
-        frequencies.insert(it.second); 
+        // will only insert distinct integers, which is what we want. 
+        frequencies.insert(it.second);  
     }
 
     return frequencies.size() == 1; 
